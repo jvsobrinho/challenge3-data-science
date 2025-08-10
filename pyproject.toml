@@ -5,10 +5,18 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "eli5>=0.16.0",
     "matplotlib>=3.10.5",
     "numpy>=2.3.2",
     "optuna>=4.4.0",
     "pandas>=2.3.1",
+    "requests>=2.32.4",
     "scikit-learn>=1.7.1",
+    "scipy>=1.16.1",
     "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
 ]
